@@ -1,0 +1,8 @@
+def getminmax(arr):
+    arr.sort()
+    minmax={"min":arr[0],"max":arr[-1]}
+    return minmax
+arr=[5,4,3,2,1]
+minmax=getminmax(arr)
+print("min element is:",minmax["min"])
+print("max element is:",minmax["max"])
